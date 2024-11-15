@@ -4,7 +4,7 @@
 # Create container
 # docker run -it --name git-lfs-server -u test -v `pwd`:/home/test/git-lfs-server git-lfs-server
 
-FROM ubuntu:trusty
+FROM ubuntu:trusty-20190425
 
 MAINTAINER Stanislav Artemkin
 
